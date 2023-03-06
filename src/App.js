@@ -1,7 +1,8 @@
 import './App.css';
 import {useState} from "react";
-import {Task} from "./Task"
+import {Task} from "./Task";
 
+//Comments were added to this file
 function App() {
     const [todoList,setTodo]=useState([]);
     const [newTask,setNewTask]=useState("");
